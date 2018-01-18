@@ -47,4 +47,4 @@ User::create([
 ]);
 
 // Return all of the records from the User model
-dd(User::all())
+dd(User::all());
