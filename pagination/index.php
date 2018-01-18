@@ -1,7 +1,6 @@
 <?php 
 
 use Illuminate\Pagination\Paginator;
-use Illuminate
 
 // note, if you want to use the links method you must also use the views component
 Illuminate\Pagination\Paginator::viewFactoryResolver(function () use ("view factory here") {
